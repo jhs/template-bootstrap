@@ -1,0 +1,52 @@
+
+body {
+  overflow: hidden; 
+}
+
+#site-wrapper {
+  position: relative;
+  /* overflow: hidden; fixes bottom padding when collapsed*/
+  width: 100%;
+  height: 100%
+}
+
+#site-canvas {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: .3s ease-in all;
+  transition: .3s ease-in all;
+  padding: 5% 0; /* Temp: Just spacing. */
+}
+
+#site-canvas div {
+  width: 100%;
+}
+
+#info-panel {
+  height: 80%;
+  background: #428bca;
+  position: absolute;
+  bottom: -65%; 
+}
+#info-heading {
+  padding: 15px;
+  height: 20%;
+}
+#info-box{
+  background: white;
+  height: 80%;
+  padding: 15px;
+}
+
+#site-wrapper.show-nav #site-canvas {
+  -webkit-transform: translateY(-80%);
+  transform: translateY(-80%);
+}
+
+html, body {
+  height: 100%;
+  outline: 10px solid green;
+}
