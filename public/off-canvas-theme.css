@@ -1,0 +1,44 @@
+#site-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+body {
+  overflow: hidden; 
+}
+
+#site-canvas {
+  width: 100%;
+  height: 620px;
+  position: relative;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: .3s ease-in all;
+  transition: .3s ease-in all;
+
+  padding: 5% 0; /* Temp: Just spacing. */
+}
+
+#site-menu {
+  width: 100%; 
+  height: 80%;
+  position: absolute;
+  bottom: -60%;
+  background: #428bca;
+  padding: 15px;
+}
+
+#site-wrapper.show-nav #site-canvas {
+  -webkit-transform: translateY(-60%);
+  transform: translateY(-60%);
+}
+
+.toggle-nav {
+  display: inline;
+  float: left;
+}
+html, body {
+  height: 100%;
+}
