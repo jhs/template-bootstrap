@@ -1,0 +1,96 @@
+
+// Jeff's custom variables
+
+@logo-font: geometric, Impact, Charcoal, sans-serif;
+@display-font: "Futura", @font-family-sans-serif;
+@copy-font: "Times New Roman", @font-family-serif;
+
+.logo {font-family: @logo-font;} 
+h1, h2, h3 { font-family: @display-font;}
+body, p {font-family: @copy-font;}
+
+// tiling background for stuff like subtlepatterns.com
+.bg-2 { 
+  background: url(../../images/symphony.png); 
+}
+// photo-based background, tentatively
+.bg-3 { 
+  background: url(../../images/truck-explosion.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// customize jumbotron for style-tile
+// -----------------------------------
+
+@media screen and (min-width: 768px){ 
+  .jumbotron {
+  //padding: 30px 15px;
+  }
+}
+
+.jumbotron-style-tilized{
+  padding: 0 !important;
+  display: flex;
+}
+
+#jumbotron-right {
+  padding-bottom: 50px;
+}
+
+ // make columns expand to fill empty row space - columns in a row all become the height of the tallest column
+//--------------------------------------------------------------------
+
+.row [class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+.row{
+  overflow: hidden; 
+}
+
+
+
+//setup swatch styles
+//-------------------
+
+[class^="color-swatch"]{
+  height: 100px;
+
+}
+.color-swatch-default{
+  background-color: @gray;
+}
+.color-swatch-primary{
+  background-color: @brand-primary;
+}
+.color-swatch-success{
+  background-color: @brand-success;
+}
+.color-swatch-info{
+  background-color: @brand-info;
+}
+.color-swatch-warning{
+  background-color: @brand-warning;
+}
+.color-swatch-danger{
+  background-color: @brand-danger;
+}
+
+// add .no-gutter class to remove gutters from children
+.no-gutter > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.margin-bottom-small {
+  margin-bottom: 20px;
+}
+.margin-bottom-medium {
+  margin-bottom: 40px;
+}
+.margin-bottom-large {
+  margin-bottom: 60px;
+}
