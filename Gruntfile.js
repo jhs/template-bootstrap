@@ -4,6 +4,7 @@
  * Copyright 2013-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+grunt.file.setBase('bower_components/bootstrap');
 
 module.exports = function (grunt) {
   'use strict';
