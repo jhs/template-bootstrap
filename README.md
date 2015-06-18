@@ -3,9 +3,10 @@ Jeff's Bootstrap Template
 
 No need to run `bower install` or `npm install`; just clone this repo for the following frontend dev environment:
 
-* jQuery
+* jQuery 2.1.4
 * Bootstrap 3.2
-* Font-awesome
+* Font-awesome 4.3.0
+* Bootswatch themes
 * Grunt 
 
 Also includes the following templates:
