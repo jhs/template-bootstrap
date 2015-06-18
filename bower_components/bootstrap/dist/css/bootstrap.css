@@ -6797,4 +6797,75 @@ button.close {
     display: none !important;
   }
 }
+.logo {
+  font-family: geometric, Impact, Charcoal, sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body,
+p {
+  font-family: "Times New Roman", Georgia, "Times New Roman", Times, serif;
+}
+.bg-2 {
+  background: url(../../../../public/images/symphony.png);
+}
+.bg-3 {
+  background: url(../../../../public/images/truck-explosion.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+.jumbotron-style-tilized {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  padding: 0 !important;
+}
+#jumbotron-right {
+  padding-bottom: 50px;
+}
+.row [class*="col-"] {
+  padding-bottom: 99999px;
+  margin-bottom: -99999px;
+}
+.row {
+  overflow: hidden;
+}
+[class^="color-swatch"] {
+  height: 100px;
+}
+.color-swatch-default {
+  background-color: #555;
+}
+.color-swatch-primary {
+  background-color: #337ab7;
+}
+.color-swatch-success {
+  background-color: #5cb85c;
+}
+.color-swatch-info {
+  background-color: #5bc0de;
+}
+.color-swatch-warning {
+  background-color: #f0ad4e;
+}
+.color-swatch-danger {
+  background-color: #d9534f;
+}
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.margin-bottom-small {
+  margin-bottom: 20px;
+}
+.margin-bottom-medium {
+  margin-bottom: 40px;
+}
+.margin-bottom-large {
+  margin-bottom: 60px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
