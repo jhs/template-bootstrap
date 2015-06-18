@@ -9,7 +9,6 @@ No need to run `bower install` or `npm install`; just clone this repo for the fo
 * Grunt 
 
 Also includes the following templates:
-* index.html
 * style-tile.html
 * blank.html
 * bootstrap-components.html
