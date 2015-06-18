@@ -28,7 +28,7 @@ And convenience symlinks (located in `/public/`)for the following:
 Importing a template from bootswatch
 -----------------------------------
 
-To use a bootswatch template, simply copy over the appropriate variables.less file and run grunt from bower_components/bootstrap. Style-tile.html will give you a feel for how the theme will look. 
+To use a bootswatch template, simply copy `variables.less` and `bootswatch.less` file from the appropriate `themes/bootswatch/yourTheme` folder  and run grunt from bower_components/bootstrap. Style-tile.html will give you a feel for how the theme will look. 
 
 Customizing bootstrap
 ---------------------
